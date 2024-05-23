@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <meta charset="utf-8">
+    <title> travle in world</title>
+</head>
+<body >
+ 
+   
+  </div>
+    <header>
+        <div class="header-container">
+            <div class="header-content">
+                <div class="header-content-items">
+
+
+                    <nav class="navbar navbar-expand-sm navbar-active bg-active fixed-top" id="nav-main">
+                        <div class="container-fluid">
+                          <a class="navbar-brand" href="#"><img src="images/logo.png"  width="100px " height="90px" class="rounded-pill"></a>
+                          <div class="nav-line-logo">
+
+                          </div><!-- nav-line-logo -->
+
+                          <div class="collapse navbar-collapse" id="mynavbar">
+                            <ul class="navbar-nav me-auto0" id="nav-ul">
+                              <li class="nav-item">
+                                <a class="nav-link" href="javascript:void(0)">home</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="javascript:void(0)">links</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" id="trips-border">trips</a>
+                                <ul class="dropdown-menu  ">
+                                  <li><a class="dropdown-item " href="#" >cairo</a></li>
+                                  <li><a class="dropdown-item" href="#">LONDON</a></li>
+                                  <hr></hr>
+                                  <li><a class="dropdown-item" href="#">Beijing</a></li>
+                                  <li><a class="dropdown-item" href="#">PARIS</a></li>
+                                  <li><a class="dropdown-item" href="#">Abu Dhabi</a></li>
+                                  <li><a class="dropdown-item" href="#">MORE</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item">
+                                <a href="#" class="nav-link  me-5"> about</a>
+                              </li>
+                            </ul>
+                            <form class="d-flex">
+                              <input class="form-control me-2" type="text" id="place-nav" placeholder="Search">
+                              <button class="btn btn-dark" type="button" id="btn-nav1">Search</button>
+                              <button class="btn btn-dark btn11" type="button" id="btn-nav1" >login</button>
+                             
+                            </form>
+                           
+                            
+                            
+                          </div> <!-- mynavbar -->
+
+                          
+                        </div> <!-- container-fluid -->
+                        
+                      </nav>
+                      <div class="container mt-3" id="login-remmber">
+                       <h2>login</h2>
+                        <form action="/action_page.php">
+                          <div class="mb-3 mt-3">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                          </div>
+                          <div class="mb-3">
+                            <label for="pwd">Password:</label>
+                            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                          </div>
+                          <div class="form-check mb-3">
+                            <label class="form-check-label">
+                              <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                            </label>
+                          </div>
+                          <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                      </div>
+
+                      <div id="demo" class="carousel slide" data-bs-ride="carousel">                       
+                        <!-- Indicators/dots -->
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                          <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                          <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+                        </div>
+                        
+                        <!-- The slideshow/carousel -->
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" id="imag-cover">
+                            <img src="images/cairo2.jpg"  class="d-block" style="width:100% " >
+                            <div class="carousel-caption">
+                              <div class="mt-4 p-5 bg-active  text-dark rounded"  id="capitals">
+                                <h1>cairo</h1>
+                                <p>The capital of Egypt </p>
+                                <button>visit us</button>
+
+                              </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item" id="imag-cover">
+                            <img src="images/london.jpg" class="d-block" style="width:100%">
+                            <div class="carousel-caption">
+                              <div class="mt-4 p-5 bg-active   text-dark rounded"  id="capitals">
+                                <h1>london</h1>
+                                <p>London is the capital of England and the United Kingdom</p>
+                                <button>visit us</button>
+                              </div>
+                              
+                            </div> 
+                          </div>
+                          <div class="carousel-item" id="imag-cover">
+                            <img src="images/china.jpg" class="d-block" style="width:100%">
+                            <div class="carousel-caption">
+                              <div class="mt-4 p-5 bg-active  text-dark rounded"  id="capitals">
+                                <h1>Beijing</h1>
+                                <p> Beijing is the capital of China.</p>
+                                <button>visit us</button>
+
+                              </div>
+                              
+                            </div>  <!-- carousel-caption -->
+                          </div><!-- carousel-item -->
+                          <div class="carousel-item" id="imag-cover">
+                            <img src="images/paris.jpg" class="d-block" style="width:100%">
+                            <div class="carousel-caption">
+                              <div class="mt-4 p-5 bg-active  text-dark rounded" id="capitals">
+                                <h1>PARIS</h1>
+                                <p>the city of beuaty</p>
+                                <button>visit us</button>
+
+                              </div>
+                            </div>  <!-- carousel-caption -->
+                          </div><!-- carousel-item -->
+                          <div class="carousel-item" id="imag-cover">
+                            <img src="images/abo dubiu.jpg" class="d-block" style="width:100%">
+                            <div class="carousel-caption">
+                              <div class="mt-4 p-5 bg-active  text-dark rounded" id="capitals">
+                                <h1>Abo Dhubi</h1>
+                                <p> Capital of the UAE </p>
+                                <button>visit us</button>
+                              </div>
+                            </div>  <!-- carousel-caption -->
+                          </div><!-- carousel-item -->
+                        </div><!-- carousel-inner -->
+                        
+                        <!-- Left and right controls/icons -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                        
+                        </button>
+                        <div id="page-icons">
+                          <i class="fab fa-facebook-square"><a href="#"></a></i>
+                          <i class="fab fa-instagram-square"><a href="#"></a></i>
+                          <i class="fab fa-linkedin"><a href="#"></a></i>
+                          <i class="fab fa-twitter-square"><a href="#"></a></i>
+                          <i class="fab fa-whatsapp-square"><a href="#"></a></i>
+                        </div><!-- page-icons --> 
+                      </div>
+                    
+                </div><!-- header-content-items -->
+               
+            </div><!-- header-containt -->
+        </div><!-- header-container -->
+    </header>
+    <!-- --------------------------------------------------------------- -->
+    <main>
+      <div class="container-fluid " id="welcom-main">
+        <h3 class="pt-3">welcome</h3>
+        <p>If you like to plan a world tour then you are in the right place so I advise you to take a tour with us and watch our shows . </p>
+  
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+         learn more 
+        </button>
+      </div><!-- welcom-main -->
+    </main>
+    <hr>
+    <section id="sectsection-list2">
+      <div class="container-fluid " id="section-popular">
+        <h3 class="pt-5">beautiful capitals in the world</h3>
+      </div><!-- section-popular -->
+
+
+
+     
+        <div class="container-fluid mt-3" id="welcom-capital-list"><!-- listالابتعرف المدن تحت بعض -->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header">
+                <a class="btn" data-bs-toggle="collapse" href="#collapseOne" data-bs-parent="#accordion">
+                 cairo
+                </a>
+              </div>
+              <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                <div class="card-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                PARIS
+              </a>
+              </div>
+              <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                <div class="card-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+                  london
+                </a>
+              </div>
+              <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                <div class="card-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- list نهايتهاالابتعرف المدن تحت بعض -->
+          
+        </div><!-- list-contant -->
+
+        <div class="main-translate">    <!-- translate -->
+          <div class="mt-4 p-3 bg-active text-white rounded" id="translate">
+            <h1>translate from english to arabic</h1>
+           
+          </div><!-- #translate -->
+          <div class="container-fluid pt-3 text-dark" id="container-english-copy">
+            <span class="write" >write and translate</span>
+            <span class="write translate" > press here</span>
+
+            <button type="button" class="btn btn-active" data-bs-toggle="modal" data-bs-target="#myModal" id="btn-copy">
+              copy</button>
+              <form action="/action_page.php">
+                <div class="mb-3 mt-3"> 
+                  <textarea class="form-control" rows="5" id="comment" name="text" placeholder="translate"></textarea>
+                </div>
+              </form>
+          </div><!-- container-english-copy -->
+          
+          <!-- The Modal -->
+          <div class="modal" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+          
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">translate from english to  arabic</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+          
+                <!-- Modal body -->
+                <div class="modal-body">
+                 "تم نسخ النص الي اللغه العربيه"
+                </div>
+          
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+          
+              </div>
+            </div>
+            
+          </div><!-- copy -->
+
+          <hr>
+
+
+
+          <div class="main-translate">    <!-- translate franch-->
+            <div class="mt-3 p-3 bg-active text-white rounded" id="translate">
+              <h1>translate from french to  arabic </h1>
+             
+            </div><!-- #translate -->
+            <div class="container-fluid pt-3 text-dark" id="container-english-copy">
+              <span class="write" >write and translate</span>
+              <span class="write translate" > press here</span>
+  
+              <button type="button" class="btn btn-active" data-bs-toggle="modal" data-bs-target="#myModal" id="btn-copy">
+                copy</button>
+                <form action="/action_page.php">
+                  <div class="mb-3 mt-3"> 
+                    <textarea class="form-control" rows="5" id="comment" name="text" placeholder="translate"></textarea>
+                  </div>
+                </form>
+            </div><!-- container-frensh-copy -->
+            
+            <!-- The Modal -->
+            <div class="modal" id="myModal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">translate from french to  arabic </h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+            
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                   "تم نسخ النص الي اللغه العربيه"
+                  </div>
+            
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+              
+            </div><!-- copy -->
+
+            <hr>
+
+            <div class="main-translate">    <!-- translate -->
+              <div class="mt-4 p-3 bg-active text-white rounded" id="translate">
+                <h1>translate from german to arabic</h1>
+               
+              </div><!-- #translate -->
+              <div class="container-fluid pt-3 text-dark" id="container-english-copy">
+                <span class="write" >write and translate</span>
+                <span class="write translate" > press here</span>
+    
+                <button type="button" class="btn btn-active" data-bs-toggle="modal" data-bs-target="#myModal" id="btn-copy">
+                  copy</button>
+                  <form action="/action_page.php">
+                    <div class="mb-3 mt-3"> 
+                      <textarea class="form-control" rows="5" id="comment" name="text" placeholder="translate"></textarea>
+                    </div>
+                  </form>
+              </div><!-- container german-copy -->
+              
+              <!-- The Modal -->
+              <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+              
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h4 class="modal-title">translate from german to  arabic</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+              
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                     "تم نسخ النص الي اللغه العربيه"
+                    </div>
+              
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+              
+                  </div>
+                </div>
+               
+              </div><!-- copy -->   <!-- نهايه الترجمه الالمانيه -->
+              <hr>
+        </div><!-- main-translate -->
+      </div><!-- section-popular -->
+    </section>
+
+
+    <!-- ------------------------------------------------bg-photos1------------------------- -->
+    <!-- الصوره الخلفيه المتحركه -->
+    <div class="luxor-background-imag">
+      <div class="luxor-background-imag-overlay"></div>
+    </div>
+    <!-- ---------------------------------------------------------- -->
+
+
+
+    <!-- صور المناطق الموجوده في العالم -->
+    <section>
+      <div id="container-world-photo">
+        <div class="container-fluid" id="contant-world-photo-title">
+          <div class=" pt-3 bg-active  rounded" id="world-photo-title">
+            <h1>The best tourist cities in the world</h1> 
+          </div><!-- title -->
+        </div><!-- container-fluid -->
+        <div class="container" id="photo-beforandafter">
+          <div class="photos"><!-- 1 -->
+            <img src="images/cairo3.jpg" >
+            <h3 >cairo</h3>
+            <button type="button" class="btn btn-outline-primary ">learn more</button>
+            <p>capital of Egypt</p>
+
+          </div><!-- photos -->
+          <div class="photos"><!-- 2 -->
+            <img src="images/london2.jpg" >
+            <h3 >london</h3>
+            <button type="button" class="btn btn-outline-primary ">learn more</button>
+            <p>capital of England</p>
+
+          </div><!-- photos -->
+          <div class="photos"><!-- 3 -->
+            <img src="images/paris2.jpg" >
+            <h3 >paris</h3>
+            <button type="button" class="btn btn-outline-primary ">learn more</button>
+            <p>capital of franic</p>
+
+          </div><!-- photos -->
+          <div class="photos"><!-- 4 -->
+            <img src="images/Abu Dhabi.jpg" >
+            <h3 >Abu Dhabi</h3>
+            <button type="button" class="btn btn-outline-primary " id="btn-Emirates">learn more</button>
+            <p>capital of Emirates </p>
+
+          </div><!-- photos -->
+          <div class="photos"><!-- 5-->
+            <img src="images/Beijing2.jpg" >
+            <h3 >Beijing</h3>
+            <button type="button" class="btn btn-outline-primary ">learn more</button>
+            <p>capital of china</p>
+
+          </div><!-- photos -->
+          <div class="photos"><!-- 6 -->
+            <img src="images/Beirut.jpg" >
+            <h3 >Beirut</h3>
+            <button type="button" class="btn btn-outline-primary ">learn more</button>
+            <p>capital of Lebanon</p>
+
+          </div><!-- photos -->
+          <div class="photos" id="photos-idd"><!--7 -->
+            <img src="images/Ankara.jpg" >
+            <h3 >Ankara</h3>
+            <button type="button" class="btn btn-outline-primary ">learn more</button>
+            <p>The Capital of Turkey</p>
+
+          </div><!-- photos -->
+          <div class="photos" id="photos-id"><!-- 8-->
+            <img src="images/Seoul.jpg" >
+            <h3 >Seoul</h3>
+            <button type="button" class="btn btn-outline-primary ">learn more</button>
+            <p>The Capital of South Korea</p>
+          </div><!-- photos -->
+        </div><!--photo-beforandafter  -->
+        </div><!-- container-world-photo -->
+
+       
+    </section>
+     <!-- bg-photo2------------------ -->
+         <!-- الصوره الخلفيه المتحركه -->
+    <div class="se-background-imag">
+      <div class="se-background-imag-overlay"></div>
+    </div>
+        <!-- ---------------------------------------------------------- -->
+
+
+    <!-- -------------------------------------thanks-for--------------- -->
+    <section><!-- thanks -->
+      <div class="mt-4 p-5 bg-active text-white rounded" id="tanks-for-title">
+        <h1>thanks for</h1> 
+      </div><!-- thanks title-->
+
+
+      <div class="container" id="thanks-forimage-items">
+        <div  id="thanks-forimage-items-text-imag" >
+          
+          <div class="card img-fluid text-white" style="width:500px" id="cardthankscolor-overlay"><!-- 1 -->
+            <img class="card-img-top" src="images/gir1.jpg" alt="Card image" style="width:100%" height="450px">
+            <div class="card-img-overlay" id="text-img-overlay">
+        
+              <h4 class="card-title">all thanks and appreciation</h4>
+              <div class="color-overlay"></div>
+              <p class="card-title text-white"><i class="far fa-clock"></i>May 22,2024</p>
+              <div class="thanks-forimage-items-image">         
+                <img src="images/gir1.jpg" class="rounded-circle" alt="Cinque Terre" width="100" height="150"> 
+                <p>eng:Esraa</p>
+                <p>web develober</p>
+              </div><!-- thanks-forimage-items-image -->
+            </div><!-- text-img-overlay -->
+          </div><!-- cardthankscolor-overlay -->
+         
+        </div><!--thanks-forimage-items-text-imag -->
+
+
+        <div  id="thanks-forimage-items-text-imag" >
+          
+          <div class="card img-fluid text-secondary" style="width:500px" id="cardthankscolor-overlay"><!-- 2 -->
+            <img class="card-img-top" src="images/gir2.jpg" alt="Card image" style="width:100%" height="450px">
+            <div class="card-img-overlay" id="text-img-overlay">
+        
+              <h4 class="card-title">all thanks and appreciation</h4>
+              <div class="color-overlay"></div>
+              <p class="card-title text-white"><i class="far fa-clock"></i>May 22,2024</p>
+              <div class="thanks-forimage-items-image">         
+                <img src="images/gir2.jpg" class="rounded-circle" alt="Cinque Terre" width="100" height="150"> 
+                <p>eng:Rahma Fadl</p>
+                <p>web develober</p>
+              </div><!-- thanks-forimage-items-image -->
+            </div><!-- text-img-overlay -->
+          </div><!-- cardthankscolor-overlay -->
+         
+        </div><!--thanks-forimage-items-text-imag -->
+
+
+        <div  id="thanks-forimage-items-text-imag" >
+          
+          <div class="card img-fluid text-secondary" style="width:500px" id="cardthankscolor-overlay"><!-- 3-->
+            <img class="card-img-top" src="images/gir3.jpg" alt="Card image" style="width:100%" height="450px">
+            <div class="card-img-overlay" id="text-img-overlay">
+        
+              <h4 class="card-title">all thanks and appreciation</h4>
+              <div class="color-overlay"></div>
+              <p class="card-title text-white"><i class="far fa-clock"></i>May 22,2024</p>
+              <div class="thanks-forimage-items-image">         
+                <img src="images/gir3.jpg" class="rounded-circle" alt="Cinque Terre" width="100" height="150"> 
+                <p>eng:Alaa</p>
+                <p>web develober</p>
+              </div><!-- thanks-forimage-items-image -->
+            </div><!-- text-img-overlay -->
+          </div><!-- cardthankscolor-overlay -->
+         
+        </div><!--thanks-forimage-items-text-imag -->
+       
+      </div><!--container -->
+
+    </section>
+
+
+    <hr class="hr22">
+
+    <!-- ------------------------------------------------------------------------------------------news -->
+
+
+    <section>
+      <div class="container" id="contairner-new"><!-- title world news -->
+        <div class="mt-4 p-5 bg-white text-muted rounded" id="tanks-for-title">
+          <h1>"world news"</h1> 
+          <div class="news-line joinus"></div>
+        </div><!-- news title-->
+
+
+        <article>
+          <div class="article-news"><!-- 1 -->
+            <div class="mt-2 p-5 bg-light text-secondary rounded" id="artical-items-news">
+              <h1>podcast title</h1> 
+              <p><i class="fas fa-calendar-alt"></i>may/22/2024</p>
+              <div class="news-line"></div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis natus repellendus vel corporis, quibusdam ab recusandae minus architecto tempore explicabo magni corrupti quis sunt beatae iusto sequi inventore quam! Quod?
+              Neque nulla recusandae quidem obcaecati vero! Voluptas maiores hic reprehenderit placeat cumque nobis consequuntur provident eius a eaque similique aliquam, magnam fuga delectus excepturi tenetur qui esse nesciunt. Nihil, voluptatum?
+              Dolore consectetur repellendus repudiandae fugiat deleniti, fuga culpa sapiente, atque doloremque libero blanditiis perspiciatis quo reprehenderit sed! Qui asperiores explicabo iure atque, dolorum, quis harum unde eum deserunt, dolore quo?
+              Vitae, provident dicta! Impedit, </p>
+              <button type="button" class="btn btn-secondary"><i class="fas fa-podcast"></i>podcast</button>
+              <button type="button" class="btn btn-secondary"><i class="fas fa-clock"></i>55mins</button>
+              <button type="button" class="btn btn-secondary"><i class="fas fa-play"></i>play episode</button> 
+
+              
+
+            </div><!-- artical-items-news -->
+            
+            <div  class="bg-secondary" id="artical-items-news-imag"> 
+              <img src="images/مصر.jpg"  class="float-end rounded"  alt="Paris" width="390" height="445">
+            </div><!-- artical-items-news-imag -->
+
+           
+          </div><!-- article-news --><!-- 1 -->
+
+          <div class="article-news"><!--2-->
+            <div  id="artical-items-news-imag"> 
+              <img src="images/مصر2.jpg"  class="float-start rounded"  alt="Paris" width="390" height="445">
+            </div><!-- artical-items-news-imag -->
+
+            <div class="mt-2 p-5 bg-light text-secondary rounded" id="artical-items-news">
+              <h1>podcast title</h1> 
+              <p><i class="fas fa-calendar-alt"></i>may/22/2024</p>
+              <div class="news-line"></div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis natus repellendus vel corporis, quibusdam ab recusandae minus architecto tempore explicabo magni corrupti quis sunt beatae iusto sequi inventore quam! Quod?
+              Neque nulla recusandae quidem obcaecati vero! Voluptas maiores hic reprehenderit placeat cumque nobis consequuntur provident eius a eaque similique aliquam, magnam fuga delectus excepturi tenetur qui esse nesciunt. Nihil, voluptatum?
+              Dolore consectetur repellendus repudiandae fugiat deleniti, fuga culpa sapiente, atque doloremque libero blanditiis perspiciatis quo reprehenderit sed! Qui asperiores explicabo iure atque, dolorum, quis harum unde eum deserunt, dolore quo?
+              Vitae, provident dicta! Impedit, </p>
+              <button type="button" class="btn btn-secondary"><i class="fas fa-podcast"></i>podcast</button>
+              <button type="button" class="btn btn-secondary"><i class="fas fa-clock"></i>55mins</button>
+              <button type="button" class="btn btn-secondary"><i class="fas fa-play"></i>play episode</button> 
+
+              
+
+            </div><!-- artical-items-news -->
+            
+           
+           
+          </div><!-- article-news --><!-- 2 -->
+          <div class="article-news"><!-- 3 -->
+            <div class="mt-2 p-5 bg-light text-secondary rounded" id="artical-items-news">
+              <h1>podcast title</h1> 
+              <p><i class="fas fa-calendar-alt"></i>may/22/2024</p>
+              <div class="news-line"></div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis natus repellendus vel corporis, quibusdam ab recusandae minus architecto tempore explicabo magni corrupti quis sunt beatae iusto sequi inventore quam! Quod?
+              Neque nulla recusandae quidem obcaecati vero! Voluptas maiores hic reprehenderit placeat cumque nobis consequuntur provident eius a eaque similique aliquam, magnam fuga delectus excepturi tenetur qui esse nesciunt. Nihil, voluptatum?
+              Dolore consectetur repellendus repudiandae fugiat deleniti, fuga culpa sapiente, atque doloremque libero blanditiis perspiciatis quo reprehenderit sed! Qui asperiores explicabo iure atque, dolorum, quis harum unde eum deserunt, dolore quo?
+              Vitae, provident dicta! Impedit, </p>
+              <button type="button" class="btn btn-secondary"><i class="fas fa-podcast"></i>podcast</button>
+              <button type="button" class="btn btn-secondary"><i class="fas fa-clock"></i>55mins</button>
+              <button type="button" class="btn btn-secondary"><i class="fas fa-play"></i>play episode</button> 
+
+              
+
+            </div><!-- artical-items-news -->
+            
+            <div  class="bg-secondary" id="artical-items-news-imag"> 
+              <img src="images/se.jpg"  class="float-end rounded"  alt="Paris" width="390" height="445">
+            </div><!-- artical-items-news-imag -->
+
+           
+          </div><!-- article-news --><!-- 3 -->
+
+          <div class="article-news"><!--2-->
+            <div  id="artical-items-news-imag"> 
+              <img src="images/abo dubiu.jpg"  class="float-start rounded"  alt="Paris" width="390" height="445">
+            </div><!-- artical-items-news-imag -->
+
+            <div class="mt-2 p-5 bg-light text-secondary rounded" id="artical-items-news">
+              <h1>podcast title</h1> 
+              <p><i class="fas fa-calendar-alt"></i>may/22/2024</p>
+              <div class="news-line"></div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis natus repellendus vel corporis, quibusdam ab recusandae minus architecto tempore explicabo magni corrupti quis sunt beatae iusto sequi inventore quam! Quod?
+              Neque nulla recusandae quidem obcaecati vero! Voluptas maiores hic reprehenderit placeat cumque nobis consequuntur provident eius a eaque similique aliquam, magnam fuga delectus excepturi tenetur qui esse nesciunt. Nihil, voluptatum?
+              Dolore consectetur repellendus repudiandae fugiat deleniti, fuga culpa sapiente, atque doloremque libero blanditiis perspiciatis quo reprehenderit sed! Qui asperiores explicabo iure atque, dolorum, quis harum unde eum deserunt, dolore quo?
+              Vitae, provident dicta! Impedit, </p>
+              <button type="button" class="btn btn-secondary"><i class="fas fa-podcast"></i>podcast</button>
+              <button type="button" class="btn btn-secondary"><i class="fas fa-clock"></i>55mins</button>
+              <button type="button" class="btn btn-secondary"><i class="fas fa-play"></i>play episode</button> 
+
+              
+
+            </div><!-- artical-items-news -->
+            
+           
+           
+          </div><!-- article-news --><!-- 2 -->
+
+
+          
+          
+        </article>
+      </div><!-- container -->
+    </section>
+    <!-- ------------------------------------------------------------------- -->
+    <footer>
+      <div class="first-section-footer">
+        <!-- --------------------------join us -->
+        <div class="container" id="contairner-new"><!-- title join -->
+          <div class="mt-4 p-5 bg-white text-muted rounded" id="tanks-for-title">
+            <h1>"join us"</h1> 
+            <div class="news-line joinus"></div>
+          </div><!-- join title-->
+
+          <div class="container  "> 
+            <div class="card-items">
+              <h2>subscribe now</h2>
+              <i class="fab fa-twitter-square  p-3"></i>
+              <p>go to link</p>
+            </div><!-- card-items -->
+
+            <div class="card-items">
+              <h2>subscribe now</h2>
+              <i class="fab fa-whatsapp-square p-3"></i>              <p>go to link</p>
+            </div><!-- card-items -->
+
+            <div class="card-items ">
+              <h2>subscribe now</h2>
+              <i class="fab fa-instagram-square p-3"></i>              <p>go to link</p>
+            </div><!-- card-items -->
+
+            <div class="card-items">
+              <h2>subscribe now</h2>
+              <i class="fab fa-facebook-square p-3"></i>
+              <p>go to link</p>
+            </div><!-- card-items -->
+
+          </div><!-- container -->
+      </div><!-- first-section-footer -->
+
+      <div class="last-section-footer">
+        <div class="container-fluid bg-active mt-4 ">
+          <div class="lines"><!-- 1 -->
+          <span class="line-footer"></span>
+          <span class="line-footer"></span>
+          <span class="line-footer"></span>
+          </div><!-- lines 1 -->
+          
+          <div class="logo-name"><!-- 1 -->
+            <img src="images/logo.png" class="rounded-circle" width="150" height="150px" >
+            <span >good company</span>
+          </div>
+          <div class="logo-name"><!--2 -->
+            <img src="images/logo.png" class="rounded-circle" width="150" height="150px" >
+            <span >good company</span>
+          </div>
+          <div class="logo-name"><!-- 3 -->
+            <img src="images/logo.png" class="rounded-circle" width="150" height="150px" >
+            <span >good company</span>
+          </div>
+
+          <div class="lines"><!-- 2-->
+            <span class="line-footer"></span>
+            <span class="line-footer"></span>
+            <span class="line-footer"></span>
+          </div><!-- lines 2 -->
+          <div class=" info-footer info-footer1">
+            <p> tel: 000-000-000</p>
+            <p>address : Egypt</p>
+            <p> fax: 000-000-000</p>
+          
+          </div>
+          <div class="info-footer info-footer2">
+            <p> visit us</p>
+            <p>take alook</p>
+            <p>your health is more important </p>
+          
+          </div>
+          <div class="info-footer info-footer3">
+            <p> services for all</p>
+            <p>provide best services</p>
+            <p>you will be better than befor </p>
+          
+          </div>
+          <hr class="hr33">
+          <div class="copy-right">
+            <p> copy right &copy; 2024 rahma fadl </p>
+          </div>
+
+
+        </div><!-- container-fluid -->
+      </div><!-- last-section-footer -->
+    </footer>
+    
+
+  
+  <script src="j.s/j.s.js"></script>
+</body>
+
+
+
+
+</html>
